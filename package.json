@@ -1,0 +1,22 @@
+{
+  "name": "environmental-dashboard",
+  "version": "1.0.0",
+  "description": "A real-time environmental monitoring dashboard",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx serve . -p 3000 --live",
+    "build": "echo 'Build complete - ready for deployment!'",
+    "serve": "npx serve . -p 8080"
+  },
+  "keywords": [
+    "dashboard",
+    "environmental",
+    "monitoring",
+    "javascript"
+  ],
+  "author": "sanidhya",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

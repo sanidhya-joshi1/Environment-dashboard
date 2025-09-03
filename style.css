@@ -1,0 +1,66 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Style */
+  body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Dashboard Container */
+  .dashboard {
+    background-color: #fff;
+    width: 80%;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* Section Header */
+  h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Card Style for Each Parameter */
+  .card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 20px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Flexbox Layout for Cards */
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
